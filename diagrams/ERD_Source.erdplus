@@ -1,0 +1,794 @@
+{
+  "version": 2,
+  "www": "erdplus.com",
+  "shapes": [
+    {
+      "type": "Entity",
+      "details": {
+        "name": "Subject",
+        "type": "regular",
+        "x": 340,
+        "y": 470,
+        "id": 1
+      }
+    },
+    {
+      "type": "Entity",
+      "details": {
+        "name": "Tutor",
+        "type": "regular",
+        "x": 1110,
+        "y": 470,
+        "id": 2
+      }
+    },
+    {
+      "type": "Entity",
+      "details": {
+        "name": "Student",
+        "type": "regular",
+        "x": 2030,
+        "y": 470,
+        "id": 3
+      }
+    },
+    {
+      "type": "Entity",
+      "details": {
+        "name": "Lesson",
+        "type": "regular",
+        "x": 1120,
+        "y": 1060,
+        "id": 4
+      }
+    },
+    {
+      "type": "Entity",
+      "details": {
+        "name": "LessonReport",
+        "type": "regular",
+        "x": 345,
+        "y": 1500,
+        "id": 5
+      }
+    },
+    {
+      "type": "Entity",
+      "details": {
+        "name": "Payment",
+        "type": "regular",
+        "x": 2020,
+        "y": 1500,
+        "id": 6
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "subject_id",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": true,
+        "x": 215,
+        "y": 290,
+        "id": 7
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "name",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 445,
+        "y": 290,
+        "id": 9
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "tutor_id",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": true,
+        "x": 835,
+        "y": 250,
+        "id": 11
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "full_name",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 1070,
+        "y": 225,
+        "id": 13
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "email",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": true,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 1315,
+        "y": 255,
+        "id": 15
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "qualification",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": true,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 825,
+        "y": 600,
+        "id": 17
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "student_id",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": true,
+        "x": 1730,
+        "y": 250,
+        "id": 19
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "full_name",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 1940,
+        "y": 215,
+        "id": 21
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "dob",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": true,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 2170,
+        "y": 255,
+        "id": 23
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "phone",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": true,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 2240,
+        "y": 480,
+        "id": 25
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "lesson_id",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": true,
+        "x": 840,
+        "y": 940,
+        "id": 27
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "lesson_date",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 1120,
+        "y": 1235,
+        "id": 29
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "status",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 1420,
+        "y": 1080,
+        "id": 31
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "report_id",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": true,
+        "x": 110,
+        "y": 1440,
+        "id": 33
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "content",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 140,
+        "y": 1710,
+        "id": 35
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "feedback",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": true,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 360,
+        "y": 1745,
+        "id": 37
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "duration_minutes",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 575,
+        "y": 1700,
+        "id": 39
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "fee",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 570,
+        "y": 1450,
+        "id": 41
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "payment_id",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": true,
+        "x": 1730,
+        "y": 1430,
+        "id": 43
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "amount",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 1770,
+        "y": 1710,
+        "id": 45
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "payment_date",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 2010,
+        "y": 1740,
+        "id": 47
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "method",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 2240,
+        "y": 1720,
+        "id": 49
+      }
+    },
+    {
+      "type": "Relationship",
+      "details": {
+        "name": "has_tutors",
+        "isIdentifying": false,
+        "x": 720,
+        "y": 470,
+        "slots": [
+          {
+            "slotIndex": 0,
+            "minimum": "",
+            "maximum": "",
+            "participation": "optional",
+            "cardinality": "many",
+            "role": "",
+            "entityId": 1
+          },
+          {
+            "slotIndex": 1,
+            "minimum": "",
+            "maximum": "",
+            "participation": "mandatory",
+            "cardinality": "one",
+            "role": "",
+            "entityId": 2
+          }
+        ],
+        "id": 51
+      }
+    },
+    {
+      "type": "Relationship",
+      "details": {
+        "name": "teaches",
+        "isIdentifying": false,
+        "x": 1050,
+        "y": 800,
+        "slots": [
+          {
+            "slotIndex": 0,
+            "minimum": "",
+            "maximum": "",
+            "participation": "optional",
+            "cardinality": "many",
+            "role": "",
+            "entityId": 2
+          },
+          {
+            "slotIndex": 1,
+            "minimum": "",
+            "maximum": "",
+            "participation": "mandatory",
+            "cardinality": "one",
+            "role": "",
+            "entityId": 4
+          }
+        ],
+        "id": 54
+      }
+    },
+    {
+      "type": "Relationship",
+      "details": {
+        "name": "attends",
+        "isIdentifying": false,
+        "x": 1650,
+        "y": 790,
+        "slots": [
+          {
+            "slotIndex": 0,
+            "minimum": "",
+            "maximum": "",
+            "participation": "optional",
+            "cardinality": "many",
+            "role": "",
+            "entityId": 3
+          },
+          {
+            "slotIndex": 1,
+            "minimum": "",
+            "maximum": "",
+            "participation": "mandatory",
+            "cardinality": "one",
+            "role": "",
+            "entityId": 4
+          }
+        ],
+        "id": 57
+      }
+    },
+    {
+      "type": "Relationship",
+      "details": {
+        "name": "has_report",
+        "isIdentifying": false,
+        "x": 750,
+        "y": 1290,
+        "slots": [
+          {
+            "slotIndex": 0,
+            "minimum": "",
+            "maximum": "",
+            "participation": "optional",
+            "cardinality": "one",
+            "role": "",
+            "entityId": 4
+          },
+          {
+            "slotIndex": 1,
+            "minimum": "",
+            "maximum": "",
+            "participation": "mandatory",
+            "cardinality": "one",
+            "role": "",
+            "entityId": 5
+          }
+        ],
+        "id": 60
+      }
+    },
+    {
+      "type": "Relationship",
+      "details": {
+        "name": "has_payments",
+        "isIdentifying": false,
+        "x": 1560,
+        "y": 1290,
+        "slots": [
+          {
+            "slotIndex": 0,
+            "minimum": "",
+            "maximum": "",
+            "participation": "optional",
+            "cardinality": "many",
+            "role": "",
+            "entityId": 4
+          },
+          {
+            "slotIndex": 1,
+            "minimum": "",
+            "maximum": "",
+            "participation": "mandatory",
+            "cardinality": "one",
+            "role": "",
+            "entityId": 6
+          }
+        ],
+        "id": 63
+      }
+    }
+  ],
+  "connectors": [
+    {
+      "type": "Connector",
+      "details": {
+        "id": 8
+      },
+      "source": 7,
+      "destination": 1
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 10
+      },
+      "source": 9,
+      "destination": 1
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 12
+      },
+      "source": 11,
+      "destination": 2
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 14
+      },
+      "source": 13,
+      "destination": 2
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 16
+      },
+      "source": 15,
+      "destination": 2
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 18
+      },
+      "source": 17,
+      "destination": 2
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 20
+      },
+      "source": 19,
+      "destination": 3
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 22
+      },
+      "source": 21,
+      "destination": 3
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 24
+      },
+      "source": 23,
+      "destination": 3
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 26
+      },
+      "source": 25,
+      "destination": 3
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 28
+      },
+      "source": 27,
+      "destination": 4
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 30
+      },
+      "source": 29,
+      "destination": 4
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 32
+      },
+      "source": 31,
+      "destination": 4
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 34
+      },
+      "source": 33,
+      "destination": 5
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 36
+      },
+      "source": 35,
+      "destination": 5
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 38
+      },
+      "source": 37,
+      "destination": 5
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 40
+      },
+      "source": 39,
+      "destination": 5
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 42
+      },
+      "source": 41,
+      "destination": 5
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 44
+      },
+      "source": 43,
+      "destination": 6
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 46
+      },
+      "source": 45,
+      "destination": 6
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 48
+      },
+      "source": 47,
+      "destination": 6
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 50
+      },
+      "source": 49,
+      "destination": 6
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 0,
+        "id": 52
+      },
+      "source": 1,
+      "destination": 51
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 1,
+        "id": 53
+      },
+      "source": 2,
+      "destination": 51
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 0,
+        "id": 55
+      },
+      "source": 2,
+      "destination": 54
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 1,
+        "id": 56
+      },
+      "source": 4,
+      "destination": 54
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 0,
+        "id": 58
+      },
+      "source": 3,
+      "destination": 57
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 1,
+        "id": 59
+      },
+      "source": 4,
+      "destination": 57
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 0,
+        "id": 61
+      },
+      "source": 4,
+      "destination": 60
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 1,
+        "id": 62
+      },
+      "source": 5,
+      "destination": 60
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 0,
+        "id": 64
+      },
+      "source": 4,
+      "destination": 63
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 1,
+        "id": 65
+      },
+      "source": 6,
+      "destination": 63
+    }
+  ],
+  "width": 2450,
+  "height": 1900
+}
